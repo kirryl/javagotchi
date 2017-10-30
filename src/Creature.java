@@ -43,7 +43,6 @@ public class Creature {
         fullness -= 4;
         energy -= 6;
         if (happiness > 15) { happiness = 15; }
-        else
     }
 
     public String checkStatus() {
